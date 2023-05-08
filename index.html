@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda telefônica</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="images/agendatel.png" alt="imagem agenda telefônica">
+            <h1>AGENDA TELEFÔNICA</h1>
+        </header>
+        <form id="formAgenda">
+            <input type="text" id="nomePessoa" required placeholder="Insira um nome">
+            <input type="tel" id="numeroPessoa" required placeholder="Insira o telefone">
+            <button class="icon-btn add-btn">
+                <div class="add-icon"></div>
+                <div class="btn-txt">Add Número</div>
+            </button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    
+                    <th><img src="images/perfil.png" alt="imagem agenda telefônica">Nome da Pessoa</th>
+                    <th><img src="images/telefone.png" alt="imagem agenda telefônica">Número de Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src='./main.js'></script>
+</body>
+</html>
